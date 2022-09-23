@@ -16,5 +16,11 @@
         "name": "Milanesa",
         "price": "500",
         "description": "La mejor milanesa"
+    },
+    {
+        "id": 4,
+        "name": "Milanesa a caballo",
+        "price": 890,
+        "description": "Milanesa de ternera, con 2 huevos fritos, acompañada con una guarnicion de papas fritas."
     }
 ]
