@@ -7,7 +7,7 @@ function findAll(){
     return data;
 };
 
-function create(data){
+function writeFile(data){
     const dataString = JSON.stringify(data, null, 4)  // el null y el 4, son el espacio para que quede mejor identado el codigo en el objeto q modifica
     fs.writeFileSync(path.join(__dirname, '../data/products.json'), dataString);
 };
@@ -36,7 +36,23 @@ const controller = {
         };
 
         data.push(newProduct);
-        create(data);
+        writeFile(data);
+        res.redirect('/products/create');
+    },
+    edit: (req, res) => {
+        const data = findAll();
+        const platoEncontrado = data.find(plato => plato.id == req.params.id);
+        res.render('product-update-form', { plato : platoEncontrado});
+    },
+    update: (req, res) => {
+        const data = findAll();
+        const platoEncontrado = data.find(plato => plato.id == req.params.id);
+
+        platoEncontrado.name = req.body.name;
+        platoEncontrado.price = req.body.price;
+        platoEncontrado.description = req.body.description;
+
+        writeFile(data);
         res.redirect('/products/list');
     }
 };

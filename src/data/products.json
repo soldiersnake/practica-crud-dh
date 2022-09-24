@@ -22,5 +22,35 @@
         "name": "Milanesa a caballo",
         "price": 890,
         "description": "Milanesa de ternera, con 2 huevos fritos, acompañada con una guarnicion de papas fritas."
+    },
+    {
+        "id": 5,
+        "name": "Berenjena rellena",
+        "price": "700",
+        "description": "SIN NADA"
+    },
+    {
+        "id": 6,
+        "name": "Salchicas con pure",
+        "price": 500,
+        "description": "Un clasico"
+    },
+    {
+        "id": 7,
+        "name": "solomillo a la sal",
+        "price": 900,
+        "description": "solomillo tierno con guarnicion"
+    },
+    {
+        "id": 8,
+        "name": "solomillo a la sal",
+        "price": 900,
+        "description": "solomillo tierno con guarnicion"
+    },
+    {
+        "id": 9,
+        "name": "Pollo al escabeche",
+        "price": 600,
+        "description": "pollo al ascabeche"
     }
 ]
