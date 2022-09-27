@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Esparragos",
-        "description": "asdasd",
+        "description": "esparragos",
         "price": "600"
     },
     {
@@ -10,12 +10,6 @@
         "name": "Risotto",
         "description": "Risotto con berenjena y queso de cabra",
         "price": 800
-    },
-    {
-        "id": 3,
-        "name": "Milanesa",
-        "price": "500",
-        "description": "La mejor milanesa"
     },
     {
         "id": 4,
