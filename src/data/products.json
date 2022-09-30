@@ -46,5 +46,12 @@
         "name": "Pollo al escabeche",
         "price": 600,
         "description": "pollo al ascabeche"
+    },
+    {
+        "id": 9,
+        "name": "Milanesa napolitana con pure",
+        "price": 1500,
+        "description": "muy buenas",
+        "image": "image1664428515896-.png"
     }
 ]
